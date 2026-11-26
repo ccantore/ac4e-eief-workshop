@@ -5,19 +5,19 @@ Fill during prework or the Slot 1 pause (Thu 10:35–10:45).
 ## Command run
 
 ```text
-# paste the exact command, e.g. claude --version
-# Cursor: agent --version, cursor-agent --version, or cursor --version
+agent --version
+cursor --version
 ```
 
 ## Result
 
-- Exit / version string:
-- Working directory:
-- Tool: Claude Code / Codex / Cursor / other
+- Exit / version string: `agent --version` → `2026.01.23-916f423` (exit 0). `cursor --version` → `3.32.4`.
+- Working directory: this repository (`ac4e-eief-workshop`)
+- Tool: Cursor
 
 ## Blocker (if any)
 
-What failed and what you will try next. Do not paste secrets.
+None for Cursor. Claude Code is not installed; this lane stays on Cursor.
 
 ## Link forward
 
